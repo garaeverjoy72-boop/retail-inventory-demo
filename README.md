@@ -2,6 +2,8 @@
 
 **Everjoy Gara | Portfolio case study**
 
+**[Try the live inventory demo](https://garaeverjoy72-boop.github.io/retail-inventory-demo/)**
+
 This repository presents a new, small browser prototype inspired by my completed IBM Systems Analyst final project, *Optimize the Inventory Management System for a Small Retail Store*. The original course case concerned an eco-friendly retailer using spreadsheets. This prototype was created afterward to demonstrate how some of the proposed requirements could work. It is not the original graded submission or a production system. All sample products and figures are fictional.
 
 ## Problem and goal
@@ -18,9 +20,19 @@ Manual spreadsheets made stock updates time-consuming and increased the risk of 
 
 ## New portfolio prototype
 
-Open [`index.html`](index.html) in a browser, or publish this repository with GitHub Pages. The demo lets a user add products, record sales, restock one unit, see reorder alerts and export inventory to CSV. It calculates gross profit on sales as `(selling price - unit cost) × units sold`.
+Open the [live demo](https://garaeverjoy72-boop.github.io/retail-inventory-demo/) or run [`index.html`](index.html) in a browser. The demo lets a user add products, record sales, restock one unit, see reorder alerts and export inventory to CSV. It calculates gross profit on sales as `(selling price - unit cost) × units sold`.
 
 The demo uses `localStorage`: information stays in the current browser. It has no authentication, shared database, cloud sync or supplier integration. These would be later requirements for a real store.
+
+## Screenshots of the prototype
+
+The screenshots show the fictional sample data before any sales were recorded. The dashboard reports three products, 23 units in stock and one reorder alert.
+
+![Inventory dashboard with stock summary and product and sale forms](inventory-dashboard.png)
+
+The inventory table shows the Bamboo Toothbrush at four units, below its reorder threshold of five.
+
+![Inventory table showing product stock, prices, reorder alert and restock controls](inventory-table.png)
 
 ## Requirements traced to the demo
 
